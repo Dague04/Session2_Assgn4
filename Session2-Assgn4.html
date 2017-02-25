@@ -1,0 +1,15 @@
+<script>
+
+	function Fullname(first, last){
+		function myName(){
+			alert('My first name is ' + first + 'and my last name is ' + last );
+		}
+		return {
+				myName: myName
+		}
+	}
+
+	var result = Fullname("Pete", "Jones");
+	result.myName();
+
+</script>
